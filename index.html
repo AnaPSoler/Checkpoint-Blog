@@ -27,154 +27,156 @@
     />
     <link rel="stylesheet" href="./estilos/estilos.css">    
     <title>Checkpoint</title>
-    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
-    <nav class="navbar navbar-expand-lg navbar-footer-color fs-5 fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="./index.html">
-          <img
-            src="./img/Logo.png"
-            alt="Blog de Videojuegos"
-            class="logo-rotate img-fluid"
-          />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item tipe-text">
-              <a class="nav-link" href="#">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link tipe-text" href="#">Sobre Nosotros</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link tipe-text" href="#">Contacto</a>
-            </li>
-          </ul>
-
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item tipe-text">
-              <a class="nav-link" href="#">Iniciar Sesión</a>
-            </li>
-            <li class="nav-item tipe-text">
-              <a
-                class="nav-link"
-                href="#"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModalLabel"
-                >Registrarse</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- Modal de registro -->
-    <div
-      class="modal fade"
-      id="exampleModalLabel"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content color-fondo">
-          <div class="modal-header">
-            <h5 class="modal-title color-texto" id="exampleModalLabel">
-              Registrarse
-            </h5>
-            <button
-              type="button"
-              class="btn-close btn-color"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            <form id="registerForm">
-              <div class="mb-3 color-texto">
-                <label for="name" class="form-label">Apellido y Nombre</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="name"
-                  name="name"
-                  required
-                  maxlength="50"
-                  minlength="10"
-                />
-              </div>
-              <div class="mb-3 color-texto">
-                <label for="email" class="form-label">Email</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="email"
-                  name="email"
-                  required
-                  maxlength="40"
-                  minlength="10"
-                />
-              </div>
-              <div class="mb-3 color-texto">
-                <label for="password" class="form-label">Contraseña</label>
-                <input
-                  type="password"
-                  class="form-control"
-                  id="password"
-                  name="password"
-                  required
-                  maxlength="30"
-                  minlength="8"
-                />
-              </div>
-              <div class="mb-3 color-texto">
-                <label for="confirmPassword" class="form-label"
-                  >Confirmar Contraseña</label
-                >
-                <input
-                  type="password"
-                  class="form-control"
-                  id="confirmPassword"
-                  name="confirmPassword"
-                  required
-                  maxlength="30"
-                  minlength="8"
-                />
-              </div>
-              <div class="form-check mb-3 color-texto">
-                <input
-                  type="checkbox"
-                  class="form-check-input"
-                  id="subscribe"
-                  name="subscribe"
-                  required
-                />
-                <label class="form-check-label" for="subscribe"
-                  >Deseo recibir notificaciones por email</label
-                >
-              </div>
-              <div class="d-flex justify-content-center">
-                <button type="submit" class="btn btn-color-2">
-                  Enviar Datos
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon"/>    
   </head>    
   <body> 
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-footer-color fs-5 fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+            <img
+              src="./img/Logo.png"
+              alt="Blog de Videojuegos"
+              class="logo-rotate img-fluid"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item tipe-text">
+                <a class="nav-link" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link tipe-text" href="#">Sobre Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link tipe-text" href="#">Contacto</a>
+              </li>
+            </ul>
+  
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item tipe-text">
+                <a class="nav-link" href="#">Iniciar Sesión</a>
+              </li>
+              <li class="nav-item tipe-text">
+                <a
+                  class="nav-link"
+                  href="#"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModalLabel"
+                  >Registrarse</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Modal de registro -->
+      <div
+        class="modal fade"
+        id="exampleModalLabel"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content color-fondo">
+            <div class="modal-header">
+              <h5 class="modal-title color-texto" id="exampleModalLabel">
+                Registrarse
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-color"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <form id="registerForm">
+                <div class="mb-3 color-texto">
+                  <label for="name" class="form-label">Apellido y Nombre</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    name="name"
+                    required
+                    maxlength="50"
+                    minlength="10"
+                  />
+                </div>
+                <div class="mb-3 color-texto">
+                  <label for="email" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    required
+                    maxlength="40"
+                    minlength="10"
+                  />
+                </div>
+                <div class="mb-3 color-texto">
+                  <label for="password" class="form-label">Contraseña</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="password"
+                    name="password"
+                    required
+                    maxlength="30"
+                    minlength="8"
+                  />
+                </div>
+                <div class="mb-3 color-texto">
+                  <label for="confirmPassword" class="form-label"
+                    >Confirmar Contraseña</label
+                  >
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="confirmPassword"
+                    name="confirmPassword"
+                    required
+                    maxlength="30"
+                    minlength="8"
+                  />
+                </div>
+                <div class="form-check mb-3 color-texto">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="subscribe"
+                    name="subscribe"
+                    required
+                  />
+                  <label class="form-check-label" for="subscribe"
+                    >Deseo recibir notificaciones por email</label
+                  >
+                </div>
+                <div class="d-flex justify-content-center">
+                  <button type="submit" class="btn btn-color-2">
+                    Enviar Datos
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
     <main class="pt-5 mt-5">
       <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
