@@ -1,0 +1,75 @@
+:root {
+    --color-letras: #EDFDFA;
+    --borde-tarjetas: 0.5px solid #1a1a2e; 
+    --color-fondo: #1a1a2e;
+  }  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    background-color: var(--color-fondo);
+  }  
+  .main {
+    display: flex;  
+    background-color: var(--color-fondo);
+  }  
+  .card {
+    border: var(--borde-tarjetas);  
+    background-color: var(--color-fondo);
+  }  
+  .card-header {
+    border: var(--borde-tarjetas);
+    background-color: var(--color-fondo);
+    font-size: xx-large;
+    color: var(--color-letras);
+    font-family: "Poppins", serif;
+    font-weight: 900;
+    font-style: normal;
+  }  
+  .card-title {
+    color:var(--color-letras);
+    font-family: "Poppins", serif;
+    font-weight: 900;
+    font-style: normal;  
+  }  
+  .card-text {
+    color: var(--color-letras);
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+  }  
+  .btn {
+    border: 2px solid #ffba89;
+    background-color: #ffba89;
+    color: #2b5d57;   
+    font-size: 15px;  
+    padding: 0.5em 1.2em;  
+    position: relative;   
+    outline: 1px solid;
+    outline-color: #2b5d57;
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;   
+    &:hover {
+      border: 2px solid #2b5d57;
+      background-color: #2b5d57;
+      color: #ffba89;
+      box-shadow: inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 20px rgba(49, 138, 172, 0.4);
+      outline-color: rgba(49, 138, 172, 0);
+      outline-offset: 80px;
+      text-shadow: 1px 1px 6px #fff;    
+    }
+  }  
+  @media(max-width:600px) {  
+    .main {
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+    }  
+    .card {
+      img{
+        width: 100%;
+      }
+    }
+  }
