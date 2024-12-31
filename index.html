@@ -21,13 +21,14 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./estilos/estilos.css">
     <title>Checkpoint</title>
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
     <nav class="navbar navbar-expand-lg navbar-footer-color fs-5 fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="./index.html">
           <img
-            src="./img/logo.png"
+            src="./img/Logo.png"
             alt="Blog de Videojuegos"
             class="logo-rotate img-fluid"
           />
@@ -169,7 +170,39 @@
       </div>
     </div>
   </head>
-  <body>    
+  <body> 
+    <main class="pt-5 mt-5">
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item tamanio active">
+            <img src="./img/assassins-creed.webp" class="d-block w-100" alt="Assassin's Creed Mirage">
+          </div>
+          <div class="carousel-item tamanio">
+            <img src="/img/the-witcher-3.webp" class="d-block w-100" alt="The Witcher 3">
+          </div>
+          <div class="carousel-item tamanio">
+            <img src="./img/call-of-duty.webp" class="d-block w-100" alt="Call of Duty 6">
+          </div>
+          <div class="carousel-item tamanio">
+            <img src="./img/stardew-valley.webp" class="d-block w-100" alt="Stardew Valley">
+          </div>
+          <div class="carousel-item tamanio">
+            <img src="./img/god-of-war.webp" class="d-block w-100" alt="God of War">
+          </div>
+          <div class="carousel-item tamanio">
+            <img src="./img/sea-of-thieves.webp" class="d-block w-100" alt="Sea of Thieves">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </main>  
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
