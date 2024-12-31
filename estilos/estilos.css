@@ -60,10 +60,13 @@
     transition: all 0.2s ease;
   }
 }
-
-.contenido {
-  min-height: 100vh;
+.tamanio { 
+  img {
+    height: 100%;
+    
+  }   
 }
+
 .logo-footer {
   img {
     width: 200px;
