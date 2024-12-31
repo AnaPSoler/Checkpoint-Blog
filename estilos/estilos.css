@@ -209,12 +209,8 @@ body {
   a:hover{
     color: #2B5D57;
   }
-  i{
-    padding-bottom: 20px;
-  }
   section{
     input{
-      
       border-radius: 12px;
     }
   }
@@ -235,6 +231,7 @@ body {
 
 }
 .mainGaleria{
+  padding-top: 10em;
   height: 100%;
   background-color: #1A1A2E;
   font-family: "Roboto", serif;
