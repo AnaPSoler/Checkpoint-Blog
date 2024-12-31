@@ -65,6 +65,79 @@
     height: 100%;    
   }   
 }
+body {
+  background-color: #1A1A2E;
+}
+.btn-primary {
+  background-color: #FFBA89;
+  border: 2px solid #FFBA89;  
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0.5em 1.2em;  
+  position: relative;
+  color: #ffba89af(255, 255, 255, 0.9);  
+}
+.btn-primary:hover {
+  background-color: #2B5D57;
+  border-color: #2B5D57;
+  color: #FFBA89; 
+  box-shadow: 0 4px 16px #EDFDFA;
+  transition: all 0.2s ease;
+}
+.card {
+  background-color: #010101;
+  border-color: #FFBA89;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  text-align: center;
+  box-shadow: 0 4px 16px #FFBA89;
+}
+.color-texto-2 {
+  color: #EDFDFA;
+}
+.tipo-texto {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.tipo-texto-2 {
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.text-hidden {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  transition: max-height 0.3s ease;
+  max-height: 12em;
+}
+.color-busq {
+  border: 2px solid #FFBA89;
+}
+.nav-link {
+  color: #EDFDFA;
+  &:hover {
+    color: #FFBA89;
+  }
+}
+.color-paginac {
+  background-color: #FFBA89;
+  color: #2B5D57;
+  border: 1px solid #1A1A2E;
+  &:hover {
+    background-color: #2B5D57;
+    color: #FFBA89;
+    border: 1px solid #1A1A2E;
+  }
+}
+.color-paginac.active {
+   background-color: #2B5D57;
+   border-color: #2B5D57;
+   color: #FFBA89;
+}
 .logo-footer {
   img {
     width: 200px;
