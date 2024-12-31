@@ -138,3 +138,33 @@ body {
    border-color: #2B5D57;
    color: #FFBA89;
 }
+.logo-footer {
+  img {
+    width: 200px;
+    height: 200px;
+  }
+}
+.footer .nav-link:hover {
+  color: #2b5d57;
+}
+.logo-rotate {
+  transition: transform 0.3s ease;
+}
+.logo-rotate:hover {
+  transform: scale(1.2);
+}
+.facebook-icon {
+  color: #1877f2;
+}
+.instagram-icon {
+  color: #e4405f;
+}
+.twitter-icon {
+  color: #1da1f2;
+}
+.youtube-icon {
+  color: #ff0000;
+}
+.discord-icon {
+  color: #5865f2;
+}
