@@ -209,9 +209,6 @@ body {
   a:hover{
     color: #2B5D57;
   }
-  i{
-    padding-bottom: 20px;
-  }
   section{
     input{
       
@@ -220,7 +217,7 @@ body {
   }
 }
  iframe{
-    width: 350px;
+    width: 100%;
     border:solid 0.2em #FFBA89; 
     border-radius: 5%;
   }
