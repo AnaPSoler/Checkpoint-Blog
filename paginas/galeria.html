@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es_AR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="author"
+      content="Ana Paula Soler, Benjamin Villagra, Mauro Mazzocato,Tobias Medrano Tomsic, Valentin Gomez"
+    />
+    <meta
+      name="description"
+      content="Noticias, análisis, guías y curiosidades del universo gamer. Todo lo que necesitas para disfrutar y explorar el mundo de los videojuegos."
+    />
+    <meta
+      name="keywords"
+      content="Videojuegos,Noticias gamer,Análisis de videojuegos,Guías para gamers,Juegos populares,Recomendaciones de videojuegos,Curiosidades del gaming,Mejores videojuegos,Comunidad gamer,Gaming trends,Juegos clásicos,Consolas y PC gaming,Estrategias de videojuegos,Reseñas de videojuegos,Tecnología para gamers"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../estilos/estilos.css">    
+    <title>Checkpoint</title>
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon"/>    
+  </head>    
+  <body> 
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-footer-color fs-5 fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img
+              src="../img/Logo.png"
+              alt="Blog de Videojuegos"
+              class="logo-rotate img-fluid"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item tipe-text">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link tipe-text" href="#">Sobre Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link tipe-text" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+  
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item tipe-text">
+                <a class="nav-link" href="#">Iniciar Sesión</a>
+              </li>
+              <li class="nav-item tipe-text">
+                <a
+                  class="nav-link"
+                  href="#"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModalLabel"
+                  >Registrarse</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Modal de registro -->
+      <div
+        class="modal fade"
+        id="exampleModalLabel"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content color-fondo">
+            <div class="modal-header">
+              <h5 class="modal-title color-texto" id="exampleModalLabel">
+                Registrarse
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-color"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <form id="registerForm">
+                <div class="mb-3 color-texto">
+                  <label for="name" class="form-label">Apellido y Nombre</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    name="name"
+                    required
+                    maxlength="50"
+                    minlength="10"
+                  />
+                </div>
+                <div class="mb-3 color-texto">
+                  <label for="email" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    required
+                    maxlength="40"
+                    minlength="10"
+                  />
+                </div>
+                <div class="mb-3 color-texto">
+                  <label for="password" class="form-label">Contraseña</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="password"
+                    name="password"
+                    required
+                    maxlength="30"
+                    minlength="8"
+                  />
+                </div>
+                <div class="mb-3 color-texto">
+                  <label for="confirmPassword" class="form-label"
+                    >Confirmar Contraseña</label
+                  >
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="confirmPassword"
+                    name="confirmPassword"
+                    required
+                    maxlength="30"
+                    minlength="8"
+                  />
+                </div>
+                <div class="form-check mb-3 color-texto">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="subscribe"
+                    name="subscribe"
+                    required
+                  />
+                  <label class="form-check-label" for="subscribe"
+                    >Deseo recibir notificaciones por email</label
+                  >
+                </div>
+                <div class="d-flex justify-content-center">
+                  <button type="submit" class="btn btn-color-2">
+                    Enviar Datos
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  <main class="mainGaleria">
+    <h2 class="text-center py-5 titulo">Galería de Imágenes</h2>
+    <section class="text-center pb-5">
+      <div class="container-md">
+        <div class="row">
+          <div class="col-12 col-md-4 col-lg-3 text-center py-3">
+          <a href="https://store.steampowered.com/app/1172620/Sea_of_Thieves_2024_Edition/?l=spanish" target="_blank"><img src="../img/seaofthieves.jpeg" alt="Imagen de seaofthieves" class="imagen"></a>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 text-center py-3">
+             <a href="https://store.steampowered.com/app/1172620/Sea_of_Thieves_2024_Edition/?l=spanish" target="_blank"><img src="../img/seaofthieves2.jpeg" alt="Imagen de seaofthieves" class="imagen"></a>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 text-center py-3">
+             <a href="https://store.steampowered.com/app/1172620/Sea_of_Thieves_2024_Edition/?l=spanish" target="_blank"><img src="../img/foto.jpg" alt="Imagen de seaofthieves" class="imagen"></a>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 text-center py-3">
+            <a href="https://store.steampowered.com/app/1593500/God_of_War/" target="_blank"><img src="../img/kratos.webp" alt="Imagen de Kratos" class="imagen"></a>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 text-center py-3">
+             <a href="https://store.steampowered.com/app/1593500/God_of_War/" target="_blank"><img src="../img/brok.webp" alt="Imagen de Brok" class="imagen"></a>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 text-center py-3">
+             <a href="https://store.steampowered.com/app/1593500/God_of_War/" target="_blank"><img src="../img/gow.webp" alt="Imagen de Gow" class="imagen"></a>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 text-center py-3">
+            <a href="https://store.ubisoft.com/ofertas/assassins-creed?lang=es_AR" target="_blank"><img src="../img/assassins.png" alt="Imagen de assassins creed" class="imagen"></a>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 text-center py-3">
+            <a href="https://store.ubisoft.com/ofertas/assassins-creed?lang=es_AR" target="_blank"><img src="../img/assassins2.jpg" alt="Imagen de assassins creed" class="imagen"></a>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 text-center py-3">
+            <a href="https://www.thewitcher.com/us/es/" target="_blank"><img src="../img/theWitcher.jpg" alt="Imagen de theWitcher" class="imagen"></a>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 text-center py-3">
+            <a href="https://es.stardewvalleywiki.com/Stardew_Valley_Wiki" target="_blank"><img src="../img/stardew-valley.jpg" alt="Imagen de stardew-valley" class="imagen"></a>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 text-center py-3">
+            <a href="https://www.thewitcher.com/us/es/" target="_blank"><img src="../img/theWitcher2.jpg" alt="Imagen de thewitcher" class="imagen"></a>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 text-center py-3">
+            <a href="https://es.stardewvalleywiki.com/Stardew_Valley_Wiki" target="_blank"><img src="../img/stardew2.webp" alt="Imagen de stardew-valley" class="imagen"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+    <footer class="navbar-footer-color container-fluid text-center">
+      <section
+        class="row d-flex justify-content-between align-items-center p-5"
+      >
+        <a
+          class="col-12 col-md-4 col-lg-4 navbar-brand logo-footer mb-4 mb-md-0 d-flex justify-content-center justify-content-md-start"
+          href="../index.html"
+        >
+          <img
+            src="../img/logo.png"
+            alt="Blog videojuegos"
+            class="logo-rotate img-fluid"
+          />
+        </a>
+
+        <ul
+          class="navbar-nav col-12 col-md-4 col-lg-4 d-flex justify-content-center"
+        >
+          <li>
+            <a href="https://www.facebook.com" target="_blank" class="nav-link tipe-text fs-5"
+              ><i class="bi bi-facebook facebook-icon"></i> Facebook</a
+            >
+          </li>
+          <li>
+            <a href="https://www.instagram.com" target="_blank" class="nav-link tipe-text fs-5"
+              ><i class="bi bi-instagram instagram-icon"></i> Instagram</a
+            >
+          </li>
+          <li>
+            <a href="https://twitter.com" target="_blank" class="nav-link tipe-text fs-5"
+              ><i class="bi bi-twitter twitter-icon"></i> Twitter</a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com" target="_blank" class="nav-link tipe-text fs-5"
+              ><i class="bi bi-youtube youtube-icon"></i> YouTube</a
+            >
+          </li>
+          <li>
+            <a href="https://www.discord.com" target="_blank" class="nav-link tipe-text fs-5"
+              ><i class="bi bi-discord discord-icon"></i> Discord</a
+            >
+          </li>
+        </ul>
+        <ul class="navbar-nav col-12 col-md-4 col-lg-4">
+          <li>
+            <a href="#" class="nav-link tipe-text fs-5"
+              >Política de Privacidad</a
+            >
+          </li>
+          <li>
+            <a href="#" class="nav-link tipe-text fs-5"
+              >Términos de Servicio</a
+            >
+          </li>
+          <li>
+            <a href="#" class="nav-link tipe-text fs-5"
+              >Cookies y Publicidad</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="nav-link my-active tipe-text fs-5"
+              >Aviso Legal</a
+            >
+          </li>
+        </ul>
+        <div class="text-center py-3">
+          <p class="text-white tipe-text mb-0">© 2025 Todos los derechos reservados</p>
+        </div>
+      </section>
+    </footer>      
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
