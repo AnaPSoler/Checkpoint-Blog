@@ -17,12 +17,6 @@
 .navbar-nav .nav-link:hover {
   color: #2b5d57;
 }
-.navbar .navbar-style {
-  position: sticky;
-  width: 100%;
-  top: 0;
-  z-index: 1000;
-}
 .tipe-text {
   font-family: "Poppins", serif;
   font-weight: 500;
@@ -406,4 +400,10 @@ body {
   .navbar .navbar-correccion {
     width: 100vw;
   }
+}
+.navbar-style {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
 }
