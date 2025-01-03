@@ -1,0 +1,134 @@
+/* ------------------------ Estilos Generales ------------------------ */
+body {
+    font-family: "poppins";
+    background-color: #1A1A2E;
+    color: #EDFDFA;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: "roboto";
+}
+
+/* ----------------------- Estilos de la Estructura ----------------------- */
+.container {
+    background-color: #1A1A2E;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+/* ----------------------- Estilos de Imágenes ----------------------- */
+.gameimg {
+    border: 5px solid #FFBA89; /* Borde verde */
+    border-radius: 15px;
+    box-shadow: 0 0 15px 5px#FFBA89, 0 0 30px 10px rgba(40, 167, 69, 0.5); /* Efecto neón */
+}
+
+
+/* ----------------------- Estilos de la Descripción del Juego ----------------------- */
+.game-des p {
+    text-align: center;
+    margin: 1em;
+    padding: 1em;
+}
+
+/* ----------------------- Estilos de Botones ----------------------- */
+.btn-primary {
+    background-color: #FFBA89;
+    border-color: #FFBA89;
+}
+
+.btn-primary:hover {
+    background-color: #2B5D57;
+    border-color: #2B5D57;
+}
+
+/* ----------------------- Estilos de la Sección de Comentarios ----------------------- */
+.comment-section {
+    background-color: #1A1A2E;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+/* ----------------------- Estilos de los Comentarios Individuales ----------------------- */
+.comment-box {
+    background-color: #2B5D57;
+    color: #EDFDFA;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.comment-box h5 {
+    color: #FFBA89;
+}
+
+/* ----------------------- Estilos de Formularios ----------------------- */
+.form-control {
+    background-color: #2B5D57;
+    color: #EDFDFA;
+}
+
+.form-control:focus {
+    background-color: #1A1A2E;
+    color: #EDFDFA;
+    border-color: #FFBA89;
+}
+
+/* ----------------------- Estilos de Botones de Enviar ----------------------- */
+.btn-submit {
+    background-color: #2B5D57;
+    color: #ffffff;
+    border-radius: 10px;
+    width: 120px;
+    position: relative;
+    border-color: #FFBA89;
+  
+}
+
+.btn-submit:hover {
+    background-color: #FFBA89;
+}
+
+/* ----------------------- Estilos del Video ----------------------- */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+    border-radius: 10px;
+    border: #FFBA89;
+    
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+/* ----------------------- Estilos de Márgenes ----------------------- */
+.mt-4 {
+    margin-top: 1.5rem;
+}
+
+.mt-5 {
+    margin-top: 3rem;
+}
+
+.mb-3 {
+    margin-bottom: 1rem;
+}
+
+.mb-5 {
+    margin-bottom: 3rem;
+}
