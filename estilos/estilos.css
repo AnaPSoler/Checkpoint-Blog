@@ -66,41 +66,41 @@
     transition: all 0.2s ease;
   }
 }
-.tamanio { 
+.tamanio {
   img {
-    height: 100%;    
-  }   
+    height: 100%;
+  }
 }
 body {
-  background-color: #1A1A2E;
+  background-color: #1a1a2e;
 }
 .btn-primary {
-  background-color: #FFBA89;
-  border: 2px solid #FFBA89;  
+  background-color: #ffba89;
+  border: 2px solid #ffba89;
   font-size: 20px;
   font-weight: 500;
-  padding: 0.5em 1.2em;  
+  padding: 0.5em 1.2em;
   position: relative;
-  color: #ffba89af(255, 255, 255, 0.9);  
+  color: #ffba89af(255, 255, 255, 0.9);
 }
 .btn-primary:hover {
-  background-color: #2B5D57;
-  border-color: #2B5D57;
-  color: #FFBA89; 
-  box-shadow: 0 4px 16px #EDFDFA;
+  background-color: #2b5d57;
+  border-color: #2b5d57;
+  color: #ffba89;
+  box-shadow: 0 4px 16px #edfdfa;
   transition: all 0.2s ease;
 }
 .card {
   background-color: #010101;
-  border-color: #FFBA89;
-  display: flex; 
-  flex-direction: column; 
-  justify-content: center; 
+  border-color: #ffba89;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
-  box-shadow: 0 4px 16px #FFBA89;
+  box-shadow: 0 4px 16px #ffba89;
 }
 .color-texto-2 {
-  color: #EDFDFA;
+  color: #edfdfa;
 }
 .tipo-texto {
   font-family: "Poppins", serif;
@@ -121,28 +121,28 @@ body {
   max-height: 12em;
 }
 .color-busq {
-  border: 2px solid #FFBA89;
+  border: 2px solid #ffba89;
 }
 .nav-link {
-  color: #EDFDFA;
+  color: #edfdfa;
   &:hover {
-    color: #FFBA89;
+    color: #ffba89;
   }
 }
 .color-paginac {
-  background-color: #FFBA89;
-  color: #2B5D57;
-  border: 1px solid #1A1A2E;
+  background-color: #ffba89;
+  color: #2b5d57;
+  border: 1px solid #1a1a2e;
   &:hover {
-    background-color: #2B5D57;
-    color: #FFBA89;
-    border: 1px solid #1A1A2E;
+    background-color: #2b5d57;
+    color: #ffba89;
+    border: 1px solid #1a1a2e;
   }
 }
 .color-paginac.active {
-   background-color: #2B5D57;
-   border-color: #2B5D57;
-   color: #FFBA89;
+  background-color: #2b5d57;
+  border-color: #2b5d57;
+  color: #ffba89;
 }
 .logo-footer {
   img {
@@ -174,130 +174,236 @@ body {
 .discord-icon {
   color: #5865f2;
 }
-.mainContacto{
+.mainContacto {
   padding-top: 10em;
   height: 100%;
-  background-color: #1A1A2E;
+  background-color: #1a1a2e;
   font-family: "Roboto", serif;
   font-weight: 400;
   font-style: normal;
-  color: #EDFDFA;
-  .btn{
-  background-color:#FFBA89;
-  color: #EDFDFA;
-  justify-content: center;
-  font-weight: 500;
-}
-.btn:hover{
-  background-color: #2B5D57;
-  color: #EDFDFA;
-}
-.formContacto{
-  
-  padding: 50px 55px;
-  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
-  border-radius: 20px;
-  label{
-    color: #EDFDFA;
+  color: #edfdfa;
+  .btn {
+    background-color: #ffba89;
+    color: #edfdfa;
+    justify-content: center;
+    font-weight: 500;
   }
-  a{
-    color: #EDFDFA;
-    text-decoration: none;
-    font-weight: 600;
-    
+  .btn:hover {
+    background-color: #2b5d57;
+    color: #edfdfa;
   }
-  a:hover{
-    color: #2B5D57;
-  }
-  section{
-    input{
-      border-radius: 12px;
+  .formContacto {
+    padding: 50px 55px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    label {
+      color: #edfdfa;
+    }
+    a {
+      color: #edfdfa;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    a:hover {
+      color: #2b5d57;
+    }
+    section {
+      input {
+        border-radius: 12px;
+      }
     }
   }
-}
- iframe{
+  iframe {
     width: 350px;
-    border:solid 0.2em #FFBA89; 
+    border: solid 0.2em #ffba89;
     border-radius: 5%;
   }
 
-
-.titulo{
-  color: #EDFDFA;
-  font-family: "Roboto", serif;
-  font-weight: 500;
-  font-style: normal;
+  .titulo {
+    color: #edfdfa;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
 }
-
-}
-.mainGaleria{
+.mainGaleria {
   padding-top: 10em;
   height: 100%;
-  background-color: #1A1A2E;
+  background-color: #1a1a2e;
   font-family: "Roboto", serif;
   font-weight: 400;
   font-style: normal;
-  color: #EDFDFA;
-.titulo{
-  color: #EDFDFA;
-  font-family: "Roboto", serif;
-  font-weight: 500;
-  font-style: normal;
-}
-}
-@media (max-width: 700px){
-
-  .mapa{
-     iframe{
-    width: 250px;
-    height: 250px;
+  color: #edfdfa;
+  .titulo {
+    color: #edfdfa;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
   }
+}
+@media (max-width: 700px) {
+  .mapa {
+    iframe {
+      width: 250px;
+      height: 250px;
+    }
   }
 
-  .imagen{
+  .imagen {
     width: 250px;
-    border: 0.2em solid #FFBA89;
+    border: 0.2em solid #ffba89;
     border-radius: 1em;
-    box-shadow: 3px 3px 10px #2B5D57;
+    box-shadow: 3px 3px 10px #2b5d57;
   }
 }
-@media (min-width: 700px) and (max-width:1200px) {
-
-  .mapa{
-    iframe{
-    width: auto;
-    height: 450px;
+@media (min-width: 700px) and (max-width: 1200px) {
+  .mapa {
+    iframe {
+      width: auto;
+      height: 450px;
+    }
   }
-  }
-  .imagen{
+  .imagen {
     width: 200px;
-    border: 0.2em solid #FFBA89;
+    border: 0.2em solid #ffba89;
     border-radius: 1em;
-    box-shadow: 3px 3px 10px #2B5D57;
+    box-shadow: 3px 3px 10px #2b5d57;
   }
- .imagen:hover{
-    border: 0.2em solid #2B5D57;
-    transition: .5s ease-in-out;
+  .imagen:hover {
+    border: 0.2em solid #2b5d57;
+    transition: 0.5s ease-in-out;
   }
 }
-@media (min-width: 1200px){
-    .mapa{
-     iframe{
-    width: 600px;
-    height: 600px;
+@media (min-width: 1200px) {
+  .mapa {
+    iframe {
+      width: 600px;
+      height: 600px;
+    }
   }
-  }
-  .imagen{
+  .imagen {
     width: 250px;
-    border: 0.2em solid #FFBA89;
+    border: 0.2em solid #ffba89;
     border-radius: 1em;
-    box-shadow: 3px 3px 10px #2B5D57;
+    box-shadow: 3px 3px 10px #2b5d57;
   }
 
-  .imagen:hover{
-    border: 0.2em solid #2B5D57;
+  .imagen:hover {
+    border: 0.2em solid #2b5d57;
     transition: 0.5s ease;
-    box-shadow: 0px 0px 0px ;
+    box-shadow: 0px 0px 0px;
   }
+}
 
+.color-fondo-sobre-nosotros {
+  background-color: #1a1a2e;
+}
+.titulo {
+  font-family: "Poppins", serif;
+  font-weight: 325;
+  font-style: normal;
+  color: #edfdfa;
+}
+.estilo-img {
+  width: 200px;
+  height: 200px;
+  border: 3px solid #ffba89;
+  border-radius: 800px;
+  box-shadow: 0 4px 16px #ffba89;
+  margin-bottom: 25px;
+}
+.estilo-img:hover {
+  border: 3px solid #2b5d57;
+  box-shadow: 0 4px 16px #2b5d57;
+  &.scale {
+    transform: scale(1.2);
+  }
+}
+.scale {
+  transition: transform 0.5s;
+}
+.parrafo {
+  color: #edfdfa;
+  font-family: "Roboto", serif;
+  font-weight: 900;
+  font-size: x-large;
+  font-style: normal;
+  margin-left: 15px;
+}
+.color-tarjetas {
+  background-color: #010101;
+}
+.tamanio-tarjetas {
+  width: 97vw;
+  height: auto;
+  padding: 10px;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (max-width: 657px) {
+  .parrafo {
+    color: #edfdfa;
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: small;
+    margin: 5px 0;
+  }
+  .tamanio-tarjetas {
+    width: 93vw;
+    height: auto;
+    padding: 10px;
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .estilo-img {
+    margin-bottom: 25px;
+  }
+  .titulo {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: small;
+    color: #edfdfa;
+  }
+  .navbar .navbar-correccion {
+    width: 100vw;
+  }
+}
+@media (min-width: 658px) and (max-width: 800px) {
+  .navbar .navbar-correccion {
+    width: 100vw;
+  }
+  .tamanio-tarjetas {
+    width: 97vw;
+    height: auto;
+    padding: 10px;
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .estilo-img {
+    margin-bottom: 25px;
+  }
+  .parrafo {
+    color: #edfdfa;
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: medium;
+    margin: 5px 0;
+  }
+}
+@media (min-width: 801px) and (max-width: 3000px) {
+  .navbar .navbar-correccion {
+    width: 100vw;
+  }
 }
