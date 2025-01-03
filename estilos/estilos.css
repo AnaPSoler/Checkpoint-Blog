@@ -17,12 +17,6 @@
 .navbar-nav .nav-link:hover {
   color: #2b5d57;
 }
-.navbar-style {
-  position: sticky;
-  width: 100%;
-  top: 0;
-  z-index: 1000;
-}
 .tipe-text {
   font-family: "Poppins", serif;
   font-weight: 500;
@@ -175,7 +169,7 @@ body {
   color: #5865f2;
 }
 .mainContacto {
-  padding-top: 10em;
+  padding-top: 40px;
   height: 100%;
   background-color: #1a1a2e;
   font-family: "Roboto", serif;
@@ -227,7 +221,7 @@ body {
   }
 }
 .mainGaleria {
-  padding-top: 10em;
+  padding-top: 50px;
   height: 100%;
   background-color: #1a1a2e;
   font-family: "Roboto", serif;
@@ -405,5 +399,8 @@ body {
 @media (min-width: 801px) and (max-width: 3000px) {
   .navbar .navbar-correccion {
     width: 100vw;
-  }
+  } 
+}
+main {
+  margin-top: 150px;
 }
