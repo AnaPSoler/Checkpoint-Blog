@@ -407,3 +407,89 @@ body {
     width: 100vw;
   }
 }
+main {
+  margin-top: 150px;
+}
+.color-texto-inicio-sesion {
+  color: #EDFDFA;
+}
+.main-iniciar-sesion{  
+  padding-top: 60px;
+  padding-bottom: 30px;  
+}
+.tipo-texto-1 {
+  font-family: "Poppins", serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: larger;
+}
+.tipo-texto-2 {
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.imagen-iniciar-sesion {
+  width: 40vw;
+  height: 75vh;  
+}
+.tamanio-iniciar-sesion {
+  width: 40vw;
+  height: 75vh;  
+}
+.btn-facebook {
+  background-color: #0866ff;
+  border: 2px solid #0866ff;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0.5em 1.2em;
+  position: relative;
+  color: white;
+}
+.btn-facebook:hover {
+  background-color: white;
+  border-color: white;
+  color: #0866ff;
+  box-shadow: 0 4px 16px #edfdfa;
+  transition: all 0.2s ease;
+}
+.btn-google {
+  background-color: #ea4335;
+  border: 2px solid #ea4335;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0.5em 1.2em;
+  position: relative;
+  color: white;
+}
+.btn-google:hover {
+  background-color: white;
+  border-color: white;
+  color: #ea4335;
+  box-shadow: 0 4px 16px #edfdfa;
+  transition: all 0.2s ease;
+} 
+.btn-aqui-modal {
+  font-family: "Poppins", serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: large;
+  color: #ffba89;
+  &:hover {
+    color: #2b5d57;
+  }
+}
+@media(min-width:300px) and (max-width: 730px) {
+  .main-iniciar-sesion {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;    
+  }
+  .imagen-iniciar-sesion {
+    width: 60vw;
+    height: 75vh;
+    margin-top: 20px;  
+  }
+  .tamanio-iniciar-sesion {
+    width: 60vw;
+    height: 95vh;  
+  } 
