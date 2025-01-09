@@ -91,7 +91,7 @@ body {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  box-shadow: 0 4px 16px #ffba89;
+  box-shadow: 0 4px 16px #ffba8998;
 }
 .color-texto-2 {
   color: #edfdfa;
@@ -399,17 +399,17 @@ body {
 @media (min-width: 801px) and (max-width: 3000px) {
   .navbar .navbar-correccion {
     width: 100vw;
-  } 
+  }
 }
 main {
   margin-top: 150px;
 }
 .color-texto-inicio-sesion {
-  color: #EDFDFA;
+  color: #edfdfa;
 }
-.main-iniciar-sesion{  
+.main-iniciar-sesion {
   padding-top: 60px;
-  padding-bottom: 30px;  
+  padding-bottom: 30px;
 }
 .tipo-texto-1 {
   font-family: "Poppins", serif;
@@ -424,11 +424,11 @@ main {
 }
 .imagen-iniciar-sesion {
   width: 40vw;
-  height: 75vh;  
+  height: 75vh;
 }
 .tamanio-iniciar-sesion {
   width: 40vw;
-  height: 75vh;  
+  height: 75vh;
 }
 .btn-facebook {
   background-color: #0866ff;
@@ -461,7 +461,7 @@ main {
   color: #ea4335;
   box-shadow: 0 4px 16px #edfdfa;
   transition: all 0.2s ease;
-} 
+}
 .btn-aqui-modal {
   font-family: "Poppins", serif;
   font-weight: 900;
@@ -472,19 +472,19 @@ main {
     color: #2b5d57;
   }
 }
-@media(min-width:300px) and (max-width: 730px) {
+@media (min-width: 300px) and (max-width: 730px) {
   .main-iniciar-sesion {
     flex-wrap: wrap;
     flex-direction: column;
-    align-items: center;    
+    align-items: center;
   }
   .imagen-iniciar-sesion {
     width: 60vw;
     height: 75vh;
-    margin-top: 20px;  
+    margin-top: 20px;
   }
   .tamanio-iniciar-sesion {
     width: 60vw;
-    height: 95vh;  
-  } 
+    height: 95vh;
+  }
 }
