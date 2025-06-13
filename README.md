@@ -15,32 +15,9 @@ Bienvenido al repositorio del **Checkpoint Blog**, un espacio dedicado a las úl
 - **Frontend**: HTML5, CSS.
 - **Control de versiones**: Git y GitHub.
 
-## Instalación 💻
+## Visualización 💻
 
-1. Clona este repositorio:
-   ```bash
-   git clone https://github.com/AnaPSoler/Checkpoint-Blog.git
-   ```
-
-2. Accede al directorio del proyecto:
-   ```bash
-   cd Checkpoint-Blog
-   ```
-
-3. Instala las dependencias:
-   ```bash
-   npm install
-   ```
-
-4. Configura las variables de entorno:
-   Crea un archivo `.env` basado en el ejemplo proporcionado y define las variables necesarias.
-
-5. Inicia el servidor:
-   ```bash
-   npm start
-   ```
-
-6. Abre tu navegador en `https://checkpointblog.netlify.app/` y explora el blog.
+1. Abre tu navegador en `https://checkpointblog.netlify.app/` y explora el blog.
 
 ## Contacto 📬
 
